@@ -2,7 +2,9 @@ h1, p { position: absolute; left: -9999px; }
 
 div {position: relative;}
 
-
+#start {
+ margin: 1% 0px 0px 46%;
+}
 
 #wrapper { background: #bedfe4 url('./imgs/Sun.png') no-repeat 40% -40%; border: 5px solid #402309;width: 80%;height:80vh;margin: 0 auto;}
 

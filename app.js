@@ -22,7 +22,7 @@ $(function(){
   }
 
   function bounceHim() {
-    $("#sec-content,#branding").animate({top: "-=5px"}, 150).animate({top: "+=5px"}, 150);
+    $("#sec-content,#branding,#footer").animate({top: "-=25px"}, 10).animate({top: "+=25px"}, 150);
     $("#content").animate({top: "-=10px"}, 150).animate({top: "+=10px"}, 150);
     setTimeout(bounceHim, 300);
   }
@@ -39,21 +39,28 @@ $(function(){
   }
 
   function bounceHim2() {
-    $("#sec-content2,#branding2").animate({top: "-=5px"}, 150).animate({top: "+=5px"}, 150);
+    $("#sec-content2,#branding2,#footer2").animate({top: "-=15px"}, 150).animate({top: "+=15px"}, 150);
     $("#content2").animate({top: "-=10px"}, 150).animate({top: "+=10px"}, 150);
     setTimeout(bounceHim2, 300);
   }
 
+function randomMovement(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+var playerOneMovement = parseFloat(randomMovement(1000, 2000));
+var playerTwoMovement = parseFloat(randomMovement(1000, 2000));
+
   $('#start').on('click', function() {
     $("#full-robot").animate({
-      left: "5%",
+      left: "-5%",
       marginLeft: "400px"
-    }, 2000);
+    }, 1500);
     $("#full-robot2").animate({
-      right: "20%",
-      marginRight: "300%"
-    }, 2000);
-    setTimeout(startHim, 2000);
-    setTimeout(startHim2, 2000);
+      right: "30%",
+      marginRight: "500%"
+    }, 1500);
+    setTimeout(startHim, playerOneMovement);
+    setTimeout(startHim2, playerTwoMovement);
   });
 });
