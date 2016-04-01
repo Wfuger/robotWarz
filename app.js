@@ -57,7 +57,7 @@ var playerTwoMovement = parseFloat(randomMovement(1000, 2000));
       marginLeft: "400px"
     }, 1500);
     $("#full-robot2").animate({
-      right: "30%",
+      right: "27%",
       marginRight: "500%"
     }, 1500);
     setTimeout(startHim, playerOneMovement);
