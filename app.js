@@ -1,19 +1,11 @@
-$(function() {
-  $('#branding').css({
-    backgroundPosition: 'center 0'
-  });
-  $('#content').css({
-    backgroundPosition: 'center 0'
-  });
-  $('#sec-content').css({
-    backgroundPosition: 'center 0'
-  });
-  $('#footer').css({
-    backgroundPosition: 'center 0'
-  });
-  $('#wrapper').css({
-    overflow: "hidden"
-  });
+
+$(function(){
+  $('#branding').css({backgroundPosition: 'center 40%'});
+  $('#content').css({backgroundPosition: 'center -100%'});
+  $('#sec-content').css({backgroundPosition: 'center 120%'});
+  $('#footer').css({backgroundPosition: 'center 87%'});
+  $('#wrapper').css({overflow: "hidden"});
+
 
 
   var num = 1;
