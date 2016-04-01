@@ -1,0 +1,46 @@
+h1, p { position: absolute; left: -9999px; }
+
+div {position: relative;}
+
+#wrapper { background: #bedfe4 url('./imgs/Sun.png') no-repeat left -30px; border: 5px solid #402309;}
+
+#cloud-01 { background: url('./imgs/cloud_PNG16.png') no-repeat left top;}
+
+#cloud-02 {	background: url('./imgs/cloud2.png') no-repeat left top; }
+
+#mountains-03 { background: url('./imgs/mountain.png') no-repeat left bottom; width: 100px}
+
+#ground { background: url('./imgs/ground.png') no-repeat left bottom; }
+
+#full-robot { width: 271px; }
+
+#branding {
+	background: url('./imgs/kanye.png') no-repeat center top;
+	width: 271px;
+	height: 253px;
+	z-index: 4;
+	}
+
+#content {
+	background: url('./imgs/Demon_slayer_torso_detail.png') no-repeat center top;
+	width: 271px;
+	height: 164px;
+	z-index: 3;
+	margin-top: -65px;
+	}
+
+#sec-content {
+	background: url('./imgs/hips.png') no-repeat center top;
+	width: 271px;
+	height: 124px;
+	z-index: 2;
+	margin-top: -90px;
+	}
+
+#footer {
+	background: url('./imgs/robot-legs.png') no-repeat center top;
+	width: 271px;
+	height: 244px;
+	z-index: 1;
+	margin-top: -90px;
+	}
