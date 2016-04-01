@@ -15,14 +15,14 @@ div {position: relative;}
 #full-robot { width: 271px; }
 
 #branding {
-	background: url('./imgs/kanye.png') no-repeat center top;
+	background: url('./imgs/kanye2.png') no-repeat center top;
 	width: 271px;
 	height: 253px;
 	z-index: 4;
 	}
 
 #content {
-	background: url('./imgs/Demon_slayer_torso_detail.png') no-repeat center top;
+	background: url('./imgs/demon.png') no-repeat center top;
 	width: 271px;
 	height: 164px;
 	z-index: 3;
@@ -38,9 +38,50 @@ div {position: relative;}
 	}
 
 #footer {
-	background: url('./imgs/robot-legs.png') no-repeat center top;
+	background: url('./imgs/robo.png') no-repeat center top;
 	width: 271px;
 	height: 244px;
 	z-index: 1;
 	margin-top: -90px;
 	}
+
+
+/*ROBOT TWO*/
+#branding2 {
+  background: url('./imgs/homer_right.png') no-repeat center top;
+  width: 271px;
+  height: 253px;
+  z-index: 4;
+  position: absolute;
+  top: -210%;
+  right: -1130%
+  }
+
+#content2 {
+  background: url('./imgs/torso2.png') no-repeat center top;
+  width: 271px;
+  height: 164px;
+  z-index: 3;
+  position: absolute;
+  top: -145%;
+  left: 970%;
+  }
+
+#sec-content2 {
+  background: url('./imgs/hips.png') no-repeat center top;
+  width: 271px;
+  height: 124px;
+  z-index: 2;
+  position: absolute;
+  top: -100%;
+  left: 966%;
+  }
+
+#footer2 {
+  background: url('./imgs/robo_right.png') no-repeat center top;
+  width: 271px;
+  height: 244px;
+  z-index: 1;
+  top: -160px;
+  left: 970%;
+  }
