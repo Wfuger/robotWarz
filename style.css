@@ -2,17 +2,24 @@ h1, p { position: absolute; left: -9999px; }
 
 div {position: relative;}
 
-#wrapper { background: #bedfe4 url('./imgs/Sun.png') no-repeat left -30px; border: 5px solid #402309;}
 
-#cloud-01 { background: url('./imgs/cloud_PNG16.png') no-repeat left top;}
 
-#cloud-02 {	background: url('./imgs/cloud2.png') no-repeat left top; }
+#wrapper { background: #bedfe4 url('./imgs/Sun.png') no-repeat 40% -40%; border: 5px solid #402309;width: 80%;height:80vh;margin: 0 auto;}
 
-#mountains-03 { background: url('./imgs/mountain.png') no-repeat left bottom;}
+#cloud-01 { background: url('./imgs/cloud_PNG16.png') no-repeat 80% -20%;}
 
-#ground { background: url('./imgs/ground.png') no-repeat left bottom; }
+#cloud-02 { background: url('./imgs/cloud2.png') no-repeat 19% 2%; }
+
+#cloud-03 { background: url('./imgs/fish.png') no-repeat 40% 4%; }
+
+#cloud-04 {	background: url('./imgs/nyan.png') no-repeat 53% 30%; }
+
+#mountains-03 { background: url('./imgs/mountain.png') no-repeat left;}
+
+#ground { background: url('./imgs/ground.png') no-repeat left; }
 
 #full-robot { width: 271px; }
+#full-robot2 { width: 271px; }
 
 #branding {
 	background: url('./imgs/kanye2.png') no-repeat center top;
@@ -22,7 +29,7 @@ div {position: relative;}
 	}
 
 #content {
-	background: url('./imgs/demon.png') no-repeat center top;
+	background: url('./imgs/torso2.png') no-repeat center top;
 	width: 271px;
 	height: 164px;
 	z-index: 3;
@@ -48,13 +55,13 @@ div {position: relative;}
 
 /*ROBOT TWO*/
 #branding2 {
-  background: url('./imgs/homer_right.png') no-repeat center top;
+  background: url('./imgs/drake_right.png') no-repeat center top;
   width: 271px;
   height: 253px;
   z-index: 4;
   position: absolute;
   top: -210%;
-  left: 66%;
+  left: 285%;
   }
 
 #content2 {
@@ -63,8 +70,8 @@ div {position: relative;}
   height: 164px;
   z-index: 3;
   position: absolute;
-  top: -145%;
-  left: 66%;
+  top: -144%;
+  left: 285%;
   }
 
 #sec-content2 {
@@ -73,15 +80,15 @@ div {position: relative;}
   height: 124px;
   z-index: 2;
   position: absolute;
-  top: -100%;
-  left: 66%;
+  top: -98%;
+  left: 284%;
   }
 
 #footer2 {
-  background: url('./imgs/robo_right.png') no-repeat center top;
+  background: url('./imgs/legs2_right.png') no-repeat center top;
   width: 271px;
   height: 244px;
   z-index: 1;
-  top: -160px;
-  left: 66%;
+  top: -185px;
+  left: 286%;
   }

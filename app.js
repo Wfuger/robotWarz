@@ -30,7 +30,7 @@ $(function(){
   function startHim2() {
     num++;
     $("#sec-content2").animate({top: "-=5px"}, 150).animate({top: "+=5px"}, 150);
-    $("#content2,#branding2").animate({top: "-=" + num + "px"}, 150).animate({top: "+=" + num + "px"}, 150);
+    $("#content2,#branding2").animate({top: "-=" + num + "px"}, 200).animate({top: "+=" + num + "px"}, 150);
     if (num < 4) {
       setTimeout(startHim2, 300);
     } else {
@@ -50,8 +50,8 @@ $(function(){
       marginLeft: "400px"
     }, 2000);
     $("#full-robot2").animate({
-      right: "5%",
-      marginRight: "400px"
+      right: "20%",
+      marginRight: "300%"
     }, 2000);
     setTimeout(startHim, 2000);
     setTimeout(startHim2, 2000);
